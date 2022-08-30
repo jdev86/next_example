@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "component-library": "libs/component-library",
+    "next-app": "apps/next-app",
+    "next-app-e2e": "apps/next-app-e2e",
+    "second-next-app": "apps/second-next-app",
+    "second-next-app-e2e": "apps/second-next-app-e2e"
+  }
+}
