@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import Link from "next/link";
+import styled from "styled-components";
 
 const StyledPage = styled.div`
   .page {
@@ -113,10 +114,7 @@ export function Index() {
                     d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
                   />
                 </svg>
-                <span>
-                  Blog
-                  <span> Changelog, features & events </span>
-                </span>
+                <Link href="/test">Test Page</Link>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -294,8 +292,8 @@ export function Index() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {' '}
-                  What is Nx Cloud?{' '}
+                  {" "}
+                  What is Nx Cloud?{" "}
                 </a>
               </div>
               <a

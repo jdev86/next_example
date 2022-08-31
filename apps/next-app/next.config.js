@@ -12,6 +12,18 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  async rewrites() {
+    return [
+      {
+        source: '/:path*',
+        destination: `/:path*`,
+      },
+      {
+        source: '/test',
+        destination: `https://next-example-eight.vercel.app//test`,
+      },
+    ]
+  },
 };
 
 module.exports = withNx(nextConfig);
