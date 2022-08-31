@@ -20,7 +20,7 @@ const nextConfig = {
       },
       {
         source: '/test',
-        destination: `https://next-example-eight.vercel.app//test`,
+        destination: `https://next-example-eight.vercel.app/test`,
       },
     ]
   },
